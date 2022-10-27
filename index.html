@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>The Weather Forcast</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- links HTML to the CSS file-->
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <h1>The Weather Dashboard</h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The Weather Forcast</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- links HTML to the CSS file-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1>The Weather Dashboard</h1>
+    <section class="weather">
+      <div class="container">
+        <div class="forcast">
+          <!-- <button onclick="currentLocation()">Click</button>
+          <p id="demo">Example</p> -->
+          <h1 id="city">City</h1>
+          <h2>Search for a City:</h2>
+          <form>
+            <input type="text" placeholder="Search for a city" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+        </section>
         
-       
         
-        <!-- links HTML to the JavaScript-->
-        <script src="./assets/js/script.js" async defer></script>
-    </body>
+
+          <h1 id="temperature">Temperature</h1>
+          <h1 id="wind">Wind</h1>
+          <h1 id="humidity">Humidity</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- links HTML to luxon-->
+    <script src="luxon.js"></script>
+    <!-- links HTML to the JavaScript-->
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
