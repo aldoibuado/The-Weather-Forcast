@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+In today's day in age, we have been relying on technology to help us with certain tasks. We are able to check on our phones what the weather will be like that do or week. Being able to build a weather app from scratch is a good way to build up skill as a programmer. Its also nice to see what the temperature, wind and humidity will be as well. I learned how to incorporate localStorage, use a weather API, practice JavaScript skills to get the application to function.
 
 ## Installation
 
@@ -15,13 +10,11 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The user is able to search for a city to be able to find out the current temperature, wind, humidity along with the five day forecast.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+I have attached a link to the deployed application https://aldoibuado.github.io/The-Weather-Forcast/
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Screenshot (35)](https://user-images.githubusercontent.com/109316738/212438569-83776592-4f03-4b03-bd60-87d5d9f6bd29.png)
 
 ## License
 
